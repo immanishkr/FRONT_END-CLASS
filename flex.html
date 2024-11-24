@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .holder {
+    display: flex;                   /* Enable Flexbox */
+    justify-content: center;         /* Center items horizontally */
+    align-items: center;             /* Align items vertically */
+    flex-wrap: wrap;                 /* Allow items to wrap onto the next row if necessary */
+}
+
+.item {
+    padding: 10px;                   /* Add padding inside each item for spacing */
+    background-color: #ddd;          /* Background color for visual clarity */
+    margin: 5px;                     /* Small margin around each item */
+    text-align: center;              /* Center the text inside the item */
+    border-radius: 4px;              /* Optional: Rounded corners */
+    flex: 0 1 auto;                  /* Prevents items from squishing and keeps their natural width */
+}
+
+    </style>
+</head> 
+<body>
+    <div class="holder">
+        <div class="holder">
+               <div class="item item-1">1</div>
+               <div class="item item-2">2</div>
+               <div class="item item-3">3</div>
+        </div>
+        <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+</body>
+</html>

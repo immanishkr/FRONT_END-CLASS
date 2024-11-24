@@ -1,0 +1,33 @@
+.box{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+.wrapper{
+    height: 2000px;
+}
+#box1{
+    top: 10px;
+    height: 100px;
+    background-color: green;
+}
+#box2{
+    position: absolute;
+    right: 10px;
+    background-color: blue;
+}
+#box3{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: brown;
+}
+#box4{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: aquamarine;
+}

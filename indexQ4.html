@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 300px;
+            margin: 70px;
+            border: 2px solid black;
+            padding: 20px;
+            
+        }
+        label, input, select{
+            display: block;
+            width: 100% auto;
+            margin-bottom: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <form action="/submit" method="post">
+
+        <label for="name">NAME*</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+
+
+        <label for="email">Email*</label>
+        <input type="text" id="email" name="name">
+        <br>
+
+
+        <label for="gender">GENDER*</label>
+        <input type="radio" id="gender" name="gender">Male
+        <input type="radio" id="gender" name="gender">Female
+        <input type="radio" id="gender" name="gender">Others
+        <br><br>
+
+        <label for="cars">Car Brands*</label>
+        <select id="cars" name="car_brands">
+            <option value="BMW">BMW</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Audi">Audi</option>
+            <option value="Honda">Honda</option>
+        </select>
+        <br>
+
+        <label for="age">Age*</label>
+        <input type="int" id="age" name="age">
+        <br>
+
+        <label for="dob">DOB*</label>
+        <input type="date" id="dob" name="dob">
+        <br>
+
+        <label for="password">Password*</label>
+        <input type="password" id="password" name="password">
+        <br>
+
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+        <button ></button>
+    </form>
+</body>
+</html>

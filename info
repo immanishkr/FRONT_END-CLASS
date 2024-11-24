@@ -1,0 +1,48 @@
+CSS Demo: flex-direction
+
+flex-direction: row;
+
+flex-direction: row-reverse;
+
+flex-direction: column;
+
+flex-direction: column-reverse;
+
+align-items: stretch
+align-items: flex-start
+align-items: flex-end
+align-items: start
+align-items: end
+align-items: center
+align-items: baseline
+align-items: first baseline
+align-items: last baseline
+
+justify-content: flex-start
+justify-content: flex-end
+justify-content: start
+justify-content: end
+justify-content: left
+justify-content: right
+justify-content: center
+justify-content: space-between
+justify-content: space-around
+justify-content: space-evenly
+
+CSS Demo: align-self
+
+align-self: stretch;
+
+align-self: center;
+
+align-self: start;
+
+align-self: end;
+
+order items:
+-ve will move left
++ve will move right
+
+
+flex wrap will not let the size of box to reduced or increase
+

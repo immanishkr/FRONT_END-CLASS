@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./q6.css">
+</head>
+<body>
+    <div class="container1">
+        <h1>Payment Form</h1>
+        <hr>
+        <h2>User Information</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="name"><br><br>
+
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" name="gender">Male
+            <input type="radio" id="gender" name="gender">Female
+
+            <br><br>
+
+            <label for="pincode">Pincode</label>
+            <input type="int" id="pincode" name="pincode"><br><br>
+
+            <label for="textarea">Address</label>
+            <textarea name="address" id="address"></textarea>
+            <br><br>
+
+            <h2>Payment Information</h2>
+
+            <label for="cards">Card Type</label>
+            <select name="cards" id="cards">
+                <option value="visa">visa</option>
+                <option value="Rupay">Rupay</option>
+                <option value="Master card">Mastercard</option>
+            </select>
+            <br><br>
+
+            <label for="cardnumber">Card Number</label>
+            <input type="number" id="cardnumber" name="cardnumber">
+            <br><br>
+
+            <label for="dob">Expiration Date</label>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+
+            <label for="cvv">CVV</label>
+            <input type="password" id="cvv" name="cvv">
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+
+
+            <h1></h1>
+        </form>
+    </div>
+</body>
+</html>

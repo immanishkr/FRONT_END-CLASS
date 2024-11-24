@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .tb1,tr,td,th{
+        border: 1px solid black;   
+    }
+    .size{
+        width: 200px;
+    }
+   
+        .container{
+            padding: 15px;
+            border-radius: 4px;
+            background-color: rgb(242, 242, 242)
+        }
+        h1{
+            align-content: centre;
+        }
+    </style>
+</head>
+
+   
+</style>
+<body>
+   
+    <table class="tb1" align="center">
+       <tr class="size">
+        <th>Part</th>
+        <th>XS</th>
+        <th>S</th>
+        <th>M</th>
+        <th>L</th>
+        <th>XL</th>
+
+       </tr>
+       <tr>
+        <td>Waist</td>
+        <td>25</td>
+        <td>28</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        </tr>
+        <tr>
+        <td>Chest</td>
+        <td>25</td>
+        <td>28</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+       </tr>
+       <tr>
+        <td>Sleaves</td>
+        <td>25</td>
+        <td>28</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+       </tr>
+    </table>
+    <br>
+    <br>
+    <table align="center">
+        <tr class="size">
+         <th>S.NO.</th>
+         <th>LANGUAGE</th>
+         <th>USE FOR</th>
+ 
+        </tr>
+        <tr>
+         <td>1</td>
+         <td>HTML</td>
+         <td>FRONTEND</td>
+         
+         </tr>
+         <tr>
+         <td>2</td>
+         <td>CSS</td>
+         <td>FONTEND</td>
+        
+        </tr>
+        <tr>
+         <td>3</td>
+         <td>JAVASCRIPT</td>
+         <td>FRONTEND AND BACKEND</td>
+        
+        </tr>
+     </table>
+     <br>
+     <h2 align="center">Defination/Descrption list</h2>
+     <h2>
+        <B>HTML</B>
+   </h2>
+   <ul>
+       <li>This is the markup language for web pages.It defines the meaning
+           and structure of web content.
+       </li>
+   </ul>
+   <h2>
+      JavaScript
+   </h2>
+   <ul>
+       <li>
+           It is the programming language of the web.It is used to programmingte behaviour of web pages.
+       </li>
+   </ul>
+   <h2>
+       <ul>
+           <li>
+               It us used on a server side to create web applications,
+           </li>
+       </ul>
+   </h2>
+
+     <form action="">
+        <form action="backend.php"></form>
+        <div>Name:<input type="text" name="myName"></div>
+        <div>Class:<input type="text" name="MyClass"></div>
+        <div>rollno:<input type="text" name="myrollno"></div>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            Name:<input type="text" class="myName">
+        </div>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" class="myName" id="name">
+        </div>
+        <div>
+            <label for="class">Class</label>
+            <input type="text" class="myClass" id="class">
+        </div>
+            <div>
+                <label for="dateofbirth">DOB</label>
+                <INPUT type="date" class="myDOB" id="dateofbirth"></INPUT>
+</div>    
+
+     </form>
+     <h1 class="nothing">
+
+     </h1>
+ 
+     <form action="backend.php" class="container">
+      text:<input type="text" class="mytext">
+      Email:<input type="email" class="myEmail">
+      Number:<input type="number" class="myNumber">
+      Password:<input type="password">
+      dateofbirth:<input type="date" class="mydateofbirth">
+      Write here....:<textarea type="text" class="mywritehere"></textarea>
+         <label for="car">CARS</label>
+         <select name="myCARS" id="car">
+             <option value="TIAGIO">TIAGIO</option>
+             <option value="BENZ">BENZ</option>
+             <option value="BMW">BMW</option>
+             <option value="KIA SONET">KIA SONET</option>
+         </select>
+ 
+   
+   </form>
+   <h1>ROCKSTAR</h1>
+   <a href="#actor" id="actor">ACTOR</a>
+   <a href="#quote" id="quote">QUOTE</a>
+  <summary>
+           <p>Naruto: The Movie follows the journey of Naruto Uzumaki, 
+            a ninja with a goal to become the Hokage, the strongest ninja in his village.
+             Along the way, Naruto must face challenges, form alliances, and fight enemies 
+             who threaten the peace of the shinobi world.</p>
+       </summary>
+   <aside>
+        <p>The movie got really good review
+        of 10 stars</p>
+        <p>Movie released in 2012</p>
+   </aside>
+   <footer>
+   Directed by:
+     [Imtiaz Ali].
+   </footer>
+   
+   <h1>Dog Adoption Application</h1>
+
+   <form>
+      
+       <label for="name">Name</label>
+       <input type="text" id="name" placeholder="Name" required><br><br>
+
+      
+       <label for="phone">Phone Number</label>
+       <input type="text" id="phone" placeholder="Phone Number" required><br><br>
+
+
+       <label for="address">Address</label>
+       <input type="text" id="address" placeholder="Address" required><br><br>
+
+     
+       <label for="checkbox">
+           <input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
+           Have you ever lived with a Dog before?
+       </label><br><br>
+
+      
+       <label for="multiSelect">Please select your preferred breeds:</label><br>
+       <select id="multiSelect" multiple>
+           <option value="Labrador">Labrador</option>
+           <option value="Golden Retriever">Golden Retriever</option>
+           <option value="German Shepherd">German Shepherd</option>
+           <option value="Poodle">Poodle</option>
+           <option value="Bulldog">Bulldog</option>
+       </select><br><br>
+
+       <input type="submit" id="submit" value="Submit">
+   </form>
+   <div class="movie-container">
+   
+    <img src="movie-poster.jpg" alt="Movie Poster" class="moviePic">
+
+   
+    <p class="movieDetail">
+        This is a brief description of the movie. It gives an overview of the storyline, the main characters,
+        and other important elements that make the movie worth watching.
+    </p>
+</div>
+<div>
+    <h1>HARRY POTTER and the Philosopher's Stone</h1>
+    <img class="moviePic" src="https://images.thedirect.com/media/article_full/harry-potter-characters.jpg"
+    alt="harry potter image" >
+    </div>
+    <div>
+    <p class="movieDetail">
+    An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and
+    the terrible evil that haunts the magical world.
+    </p>
+    <form action=" " class="container">
+        <h1>Payment Form</h1>
+        <hr>
+        <h2>User Information</h2>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name..."required>
+        <p></p>
+        <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" value="male" name="gender">Male
+        <input type="radio" value="female" name="gender">Female
+        </fieldset>
+        <p><label>Address: <textarea rows="4" col="7" id="textarea" name="address" placeholder="Enter your
+        Address..."></textarea></label></p>
+        <p><label>Email: <input type="email" placeholder="Enter your Email..." name="email"></label> <br></p>
+        <p><label>Pincode: <input type="number" placeholder="Enter your Pincode..." name="Pincode"></label></p>
+        <h2>Payment Information</h2>
+        <p>
+        <label> Card Type:
+        <select>
+        <option value="">--Select Card Type--</option>
+        <option value="VISA" name="Card Type">VISA</option>
+        <option value="Mastercard" name="Card Type">Mastercard</option>
+        </select>
+        </label>
+        </p>
+        <p><label>Card Number <input type="number" placeholder="1111-2222-3333-4444" name="Card Number"
+        required></label></p>
+        <p><label>Expiration Date <input type="date" id="expDate" name="expiryDate"></label></p>
+        <p><label>CVV <input type="password" id="password" placeholder="Enter CVV..." name="CVV"></label></p>
+        <input type="submit" value="Submit" class="submitButton">
+        </form>
+        <br>
+        <br>
+        <br>
+        <br>
+

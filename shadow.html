@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .holder {
+    display: flex;                    /* Enables Flexbox */
+    justify-content: space-between;   /* Distributes space between items, with the first and last touching the ends */
+    flex-wrap: wrap;                  /* Allows items to wrap onto the next row if needed */
+    width: 100%;                      /* Ensure the holder takes up the full width of the screen */
+    padding: 0 10px;                  /* Optional: Adds a bit of padding on the left and right */
+    box-sizing: border-box;           /* Ensures padding is included in the element's total width */
+}
+
+.item {
+    flex: 0 1 auto;                   /* Allows items to take their intrinsic width and prevents squishing */
+    padding: 10px;                    /* Adds some padding around the items */
+    background-color: #ddd;           /* A simple background for visual clarity */
+    margin: 5px;                      /* Adds spacing around each item */
+    text-align: center;               /* Centers text inside the item */
+    border-radius: 4px;               /* Adds rounded corners */
+}
+
+    </style>
+</head>
+<body>
+    <div class="holder">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+ </div>
+</body>
+</html>
